@@ -15,7 +15,7 @@ void loop()
 {
   digitalWrite(led1, HIGH);
   Serial.print(val); // Arduino sent value in variable form 'val'
-  Serial.print(" NO ");
+  Serial.print("NO ");
   Serial.println("LED");
   delay(2000);
   digitalWrite(led1,LOW);
